@@ -41,12 +41,15 @@ h1 {
     text-align: center;
     background: aliceblue;
     height: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 #container {
     margin: 30px auto;
     max-width: 600px;
 }
+
 
 #displayMsg {
     width: 15%;
@@ -77,4 +80,14 @@ button {
 button:hover {
     background: steelblue;
     color: aliceblue;
+}
+
+.footer {
+    text-align: center;
+    clear: both;
+    padding: 100px  0 0 0;   
+}
+
+.footer p {
+    color: white;
 }
